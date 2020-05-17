@@ -1,0 +1,38 @@
+/* hw04.css */
+body {
+	padding: 10px 100px 10px 100px;
+	background-color: rgb(239, 251, 251, 0.2);
+}
+
+h3 {
+	padding: 10px 100px 10px 100px;
+	border-top: solid 3px skyblue;
+	border-bottom: solid 3px skyblue;
+	text-align: center;
+	color: #777777;
+	font-size: 50px;
+	font-family: 굵은안상수체;
+}
+
+p {
+	font-size: 18px;
+}
+
+span {
+	font-size: 20px;
+}
+
+a {
+	color: skyblue;
+	text-decoration: blink;
+}
+
+hr {
+	border: solid 2px #A9BCF5;
+}
+
+.main {
+	font-weight: bold;
+	border-left: solid 5px #2E64FE;
+	background-color: #E0F2F7;
+}

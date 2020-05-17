@@ -1,0 +1,87 @@
+/* menu.css */
+
+h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 4em;
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+
+ul {
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #333;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+li {
+	float: left;
+}
+
+#main-menu > li > a:hover {
+	border-top: 5px solid #E0F2F7;
+}
+
+#main-menu > li > a {
+	color: rgba(255,255,255,0.85);
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 0.05em;
+	display: block;
+	padding: 12px 18px;
+	border-top: 5px solid #58ACFA;
+}
+
+#sub-menu {
+	position: absolute;
+	background-color: #444;
+	opacity: 0;
+	visibility: hidden;
+}
+
+#sub-menu > li {
+	padding: 8px 24px;
+	float: none;
+}
+
+#sub-menu > li > a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.6);
+}
+
+#main-menu > li:hover #sub-menu {
+	opacity: 1;
+	visibility: visible;
+	border-top: 3px solid #000;
+}
+
+#sub-menu > li:hover {
+	background-color: #555;
+}
+
+.right {
+	float: right;
+}
+
+#introduce {
+	line-height: 15px;
+	color: #333;
+	font-size: 1.5em;
+	font-family: 'Gamja Flower', cursive;
+    text-align: center;
+}
+.english {
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+.img-ahm{
+    border-radius: 100%;
+}
+
+#adv {
+	color: #0080FF
+}
