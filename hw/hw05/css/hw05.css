@@ -1,0 +1,15 @@
+/* hw05.css */
+.head
+{
+    position: relative;
+    width: 970px;
+    overflow: hidden;
+    height: 165px;
+    padding: 10px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+div {
+    display: block;
+}

@@ -1,0 +1,191 @@
+<!-- hw07.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../../assets/css/menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Black+Han+Sans&family=Gamja+Flower&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+     <style>
+        * { margin: 0; padding: 0; }
+        ul {
+            list-style-type: none;
+        }
+        #mid {
+            padding: 20px 30px 60px 30px;
+            background: #FAFAFA;
+            border: 3px solid #2E2E2E;
+            width: 1000px;
+            margin: 0 auto;
+            margin-top: 80px;
+            font-family:  'Noto Sans KR', sans-serif;
+            border-radius: 20px;
+        }         
+        #form-title {
+            height: 60px;
+            padding-top: 30px;
+            border-bottom: solid 3px #1b89d4;
+            font-size: 35px;
+            
+        }   
+        #contact {
+             font-size: 20px;
+         }
+        #contact li.row {
+            padding: 10px;
+            border-bottom: solid 1px #e5e5e5;
+            margin: 20px;
+        }
+        .item select {
+            height: 23px;
+            border: solid 1px #cccccc;
+            font-size: 15px;
+        }
+        .list1,
+        #list1{
+            width: 150px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .list2,
+        #list2{
+            display: inline-block;
+            font-size: 
+        }    
+        .v-align {
+             vertical-align: middle;
+         }       
+        #buttons{
+            margin: 0 auto;
+            width: 150px;
+            margin-top: 20px;
+        }      
+        #buttons input[type="reset"],
+        #buttons input[type="submit"] {
+            padding: 12px 17px;
+            color: aliceblue;
+            background: #0080FF;
+            float: right;
+            border: 0;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            margin-left: 3px;
+         }
+        #buttons input[type="reset"]:hover,
+        #buttons input[type="submit"]:hover {
+            background: #2E9AFE;
+         }
+    </style>
+</head>
+<body>
+   <h3 id="title">MAIN MENU</h3>
+<!--   main menu    -->
+    <div>
+      <ul id="main-menu">
+        <li id="menu-home">
+          <a href="../../index.html"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;HOME</a>
+        </li>
+        <li id="menu-hw">
+          <a href="#"><i class="fa fa-bars" aria-hidden="true"> </i>&nbsp;HW</a> 
+            <ul id="sub-menu">
+            <li><a href="../hw01/YA%2020200968%20%EC%95%88%ED%98%84%EB%AF%BC%20%EC%86%8C%EA%B0%9C.html" target="_blank">HW1</a></li>
+            <li><a href="../hw02/index.html" target="_blank">HW2</a></li>
+            <li><a href="../hw03/hw03.html" target="_blank">HW3</a></li>
+            <li><a href="../hw04/hw04.html" target="_blank">HW4</a></li>
+            <li><a href="../hw06/pr10-02-flex-onepage.html" target="_blank">HW6-01</a></li>
+            <li><a href="../hw06/pr10-03-flex-onepage.html" target="_blank">HW6-02</a></li>
+            <li><a href="#" target="_blank">HW7</a></li>
+            <li><a href="../hw08/pr12-01_onepagescroll.html" target="_blank">HW8</a></li>
+            <li><a href="../hw09/hw09.html" target="_blank">HW9</a></li>
+           </ul>
+        </li>       
+        <li id="menu-quiz">
+          <a href="#"><i class="fa fa-bars" aria-hidden="true"></i>&nbsp;Quiz</a>
+            <ul id="sub-menu">
+               <li><a href="../quiz/quiz01-paster.html" target="_blank">Quiz01</a></li>
+               <li><a href="../quiz/Quiz07-01.html" target="_blank">Quiz07-01</a></li>
+               <li><a href="../quiz/quiz10-01-visit.html" target="_blank">Quiz10-01</a></li>
+               <li><a href="../quiz/Quiz11-03.html" target="_blank">Quiz11-03</a></li>
+               <li><a href="../quiz/Quiz11-04.html" target="_blank">Quiz11-04</a></li>
+               <li><a href="../quiz/quiz12-01-positon.html" target="_blank">Quiz12-01</a></li>
+               <li><a href="../quiz/quiz12-02-transition-stu.html" target="_blank">Quiz12-02</a></li>
+           </ul>
+        </li>
+        <li id="menu-login">
+          <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;login</a>
+        </li>
+        <li id="menu-contact">
+          <a href="#"><i class="fa fa-compress" aria-hidden="true"></i>&nbsp;Contact</a>
+        </li>
+      </ul>
+    </div>
+<!--    main menu end    -->
+    
+<!--    contact    -->
+     <div id="mid">
+        <h3 id="form-title">메시지 보내기</h3>
+        <form>
+             <ul id="contact">
+                 <li class="row">
+                     <ul class="item">
+                         <li class="list1">이름</li>
+                         <li class="list2"><input type="text" size="60" style="height: 20px; font-size: 15px;"></li> 
+                     </ul>
+                 </li>
+                 <li class="row">
+                     <ul class="item">
+                         <li class="list1">연락처</li>
+                         <li class="list2"><input type="text" size="60" placeholder="ex) 010-0000-0000" style="height: 20px; font-size: 15px;"></li>
+                     </ul>
+                 </li>
+                 <li class="row">
+                     <ul class="item">
+                         <li class="list1">이메일</li>
+                         <li class="list2"><input type="text" size="42" style="height: 20px; font-size: 15px;"></li>&nbsp;@
+                         <select>
+                             <option value="">-----선택-----</option>
+                             <option value="d">직접 입력</option>
+                             <option value="g">gmail.com</option>
+                             <option value="n">naver.com</option>
+                             <option value="h">hanmail.com</option>
+                         </select>
+                     </ul>
+                 </li>
+                 <li class="row">
+                     <ul class="item">
+                         <li class="list1">제목</li>
+                         <li class="list2"><input type="text" size="60" style="height: 20px; font-size: 15px;"></li>
+                     </ul>
+                 </li>
+                 <li class="row">
+                     <ul class="item">
+                         <li id="list1" class="v-align">내용</li>
+                         <li id="list2" class="v-align"><textarea name="" id="" cols="90" rows="10" style="font-size: 15px;"></textarea></li>
+                     </ul>
+                 </li>
+                 <li class="row">
+                     <ul class="item">
+                         <li class="list1">파일 첨부</li>
+                         <li class="list2"><input type="file"></li>
+                     </ul>
+                 </li>
+                 <li class="row">
+                     <ul class="item">
+                         <li class="list1">메시지 목적</li>
+                         <li class="list2"><input type="radio" name="radio" value="m" checked>메시지</li>&nbsp;&nbsp;
+                         <li class="list2"><input type="radio" name="radio" value="q">문의</li>&nbsp;&nbsp;
+                         <li class="list2"><input type="radio" name="radio" value="o">기타</li>
+                     </ul>
+                 </li>
+             </ul>
+             <div id="buttons">
+                <input type="submit" value="확인">
+                <input type="reset" value="취소">
+             </div>
+        </form>
+     </div>
+<!--    contact end    -->
+</body>
+</html>

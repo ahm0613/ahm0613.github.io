@@ -1,0 +1,74 @@
+/* game-in.css */
+
+h3 {
+    margin-top: 50px;
+    font-size: 4em;
+    letter-spacing: -5px;
+    color: #efefef;
+    text-shadow: 2px 2px 10px #000;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#r6s {
+    margin-left: 20px;
+}
+#r6s-ex {
+    color: #efefef;
+    font-size: 1.25em;
+    text-shadow: 2px 2px 5px #000;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.mid {
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner {
+    max-width: 1200px;
+      width:100vw;
+    height: auto;
+}
+#game-list {
+    margin-top: 100px;
+}
+#game-list ul {
+    padding-left: 10px;
+}
+#game-list li {
+    width: 900px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #3886FF 0%, #ff3838 100%);
+    border-image-slice: 1;
+    border-image-width: 0 0 4px 0;
+    padding-top: 30px;
+    color: #efefef;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px #000;
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+}
+.game-list-ex {
+    padding: 10px;
+    color: #efefef;
+    font-size: 1.1em;
+    text-shadow: 2px 2px 5px #000;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 200%;
+}
+@media (max-width:764px) {
+    h3 {
+        font-size: 3em;
+    }
+    #r6s-ex {
+        font-size: 1em;
+    }
+    #game-list li {
+        font-size: 1.5em;
+        width: 630px;
+        border-image-width: 0 0 2.5px 0;
+    }
+    .game-list-ex {
+        font-size: 1em;
+    }
+    .game-list-ex2 {
+        font-size: .8em;
+    }
+}

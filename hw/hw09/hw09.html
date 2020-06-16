@@ -1,0 +1,105 @@
+<!-- hw09.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW09</title>
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+    <link rel="stylesheet" href="./css/game-it.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+       <nav id="main-rogo">
+          <a href="#"><img src="./img/Rainbow%20six%20siege%20rogo.png" width="200px" alt=""></a>
+       </nav>
+       <nav id="top-menu">
+            <a href="https://www.ubisoft.com/ko-kr/game/rainbow-six/siege" target="_blank">공식홈페이지</a>
+       </nav>
+       <nav id="main-menu">
+           <ul>
+               <li><a class="main-menu-l" id="main-menu-pick" href="#">게임 소개</a></li>
+               <li><a class="main-menu-l" href="./operators/operators.html">오퍼레이터</a></li>
+               <li><a class="main-menu-l" href="#">맵</a></li>
+               <li><a class="main-menu-l" href="#">보조 장비</a></li>
+           </ul>
+       </nav>
+    </header>
+    <container>
+        <content>
+            <div class="mid">
+                <h3 id="r6s">RAINBOW SIX SIEGE</h3>
+                <section>
+                  <div class="banner">
+                    <div class="bxslider">
+                      <div><img src="./img/rainbow%20six%20siege%20img3.jpg"></div>
+                      <div><img src="./img/rainbow%20six%20siege%20img2.jpg"></div>
+                      <div><img src="./img/rainbow%20six%20siege%20img.jpg"></div>
+                    </div>
+                  </div>
+                </section>
+            <p id="r6s-ex">작은 지역에서 5vs5로 펄치는 택티컬 FPS입니다.<br>
+            라운드 방식으로 플레이 되고 한 라운드에 3~4분 정도치릅니다.</p>
+            </div>
+            <div class="mid" id="game-list">
+                <ul><h3>플레이 목록</h3>
+                    <li>랭킹</li>
+                    <p class="game-list-ex">플레이어의 티어가 정해지는 플레이 목록입니다.<br>
+                    <span class="game-list-ex2">규칙 | 라운드 지속 시간 : 3분 | 승리 필요 라운드 수 : 4라운드 | 게임 모드 : 폭탄전 | 클리어 레벨 : 30+</span>
+                    </p>
+                    <li>무계급</li>
+                    <p class="game-list-ex">랭크와 상관없이 경쟁전을 즐길 수 있는 플레이 목록입니다.<br>
+                    <sapn class="game-list-ex2">규칙 | 라운드 지속 시간 : 3분 | 승리 필요 라운드 수 : 4라운드 | 게임 모드 : 폭탄전 | 클리어 레벨 : 10+</sapn>
+                    </p>
+                    <li>빠른 매치</li>
+                    <p class="game-list-ex">글로벌 멀티 플레이 목록입니다. 누구나 사용할 수 있으며 랭킹에 영향을 미치치 않습니다.<br>
+                    <sapn class="game-list-ex2">규칙 | 라운드 지속 시간 : 3분 30초 | 승리 필요 라운드 수 : 3라운드 | 게임 모드 : 인질/점령전/폭탄전 | 클리어 레벨 : X</sapn>
+                    </p>
+                    <li>신입</li>
+                    <p class="game-list-ex">0~50레벨 끼리 할 수 있는 플레이 목록입니다.<br>
+                    <sapn class="game-list-ex2">규칙 | 라운드 지속 시간 : 4분 | 승리 필요 라운드 수 : 3라운드 | 게임 모드 : 폭탄전 | 클리어 레벨 : 0~50</sapn>
+                    </p>
+                    <li>훈련장</li>
+                    <p class="game-list-ex">AI와 상대할 수 있는 플레이 목록입니다.</p>
+                    <li>학습 구역</li>
+                    <p class="game-list-ex">RAINBOW SIX SIEGE의 기초를 배우는 플레이 목록입니다.</p>
+                    <li>커스텀 매치</li>
+                    <p class="game-list-ex">커스텀 멀티 플레이어 게임을 참가 또는 생성하는 목록입니다.</p>
+                </ul>
+            </div>
+            <div class="mid" id="game-list">
+                <ul><h3>게임 모드</h3>
+                    <li>인질</li>
+                    <p class="game-list-ex">공격팀은 정해진 시간 안에 인질을 지정된 위치로 구출하면 이깁니다.<br>수비팀은 정해진 시간동안 인질을 지키면 이깁니다.</p>
+                    <li>점령전</li>
+                    <p class="game-list-ex">공격팀은 정해진 시간안에 점령위치에 가서 점령하면 이깁니다.<br>
+                    수비팀은 정해진 시간동안 공격팀이 점령하지 못하게 저지하면 이깁니다.</p>
+                    <li>폭탄전</li>
+                    <p class="game-list-ex">공격팀은 정해진 시간안에 지정된 위치에 가서 폭탄을 해재하면 이깁니다.<br>
+                    수비팀은 정해진 시간동안 공격팀이 폭탄을 해제하지 못하도록 하면 이깁니다.</p>
+                </ul>
+            </div>
+        </content>
+    </container>
+    <footer id="footer-menu">
+    
+    </footer>
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/jquery.bxslider.min.js"></script>
+    <script>
+    $(function() {
+        var trigger = $('#trigger');
+        var menu = $('nav ul');
+        $(trigger).on('click', function (e) {
+            e.preventDefault();
+            menu.slideToggle();
+        });
+        $('.bxslider').bxSlider({
+            auto:true,
+            autoHover: true,
+        });
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+/* operators.css */
+*{margin: 0; padding: 0;}
+#title-op {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: white;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    border-style: solid;
+    border-image: linear-gradient(to right, #3886FF 0%, #ff3838 100%);
+    border-image-slice: 1;
+    border-image-width: 0 0 4px 0;
+}
+#operators {
+    width: 900px;
+    height: 780px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    border-style: solid;
+    border-image: linear-gradient(to right, #3886FF 0%, #ff3838 100%);
+    border-image-slice: 1;
+    border-image-width: 0 0 4px 0;
+}
+.operators-rogo li {
+    float: left;
+    margin: 15px;
+    width: 80px;
+    height: 80px;
+    }
+.operators-rogo img {
+    width: 70px;
+    height: 70px;
+}
+.operators-rogo li {
+    list-style: none;
+}
+.operators-rogo li:hover a img {
+    width: 80px;
+    height: 80px;
+    transition: .5s;
+    border: 3px solid #63c3ff;;
+    box-shadow: 0px 0px 10px #63c3ff;
+}
+@media (max-width: 800px) {
+    #title-op {
+        width: 450px;
+    }
+    #operators {
+        width: 400px;
+        height: 1400px;
+    }
+    .operators-rogo li {
+        width: 70px;
+        height: 70px;
+    }
+    .operators-rogo img {
+        width: 60px;
+        height: 60px;
+    }
+    .operators-rogo li:hover a img {
+        width: 70px;
+        height: 70px;
+        transition: .5s;
+    }
+}
