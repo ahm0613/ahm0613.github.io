@@ -72,6 +72,10 @@ header {
     border-top: 1px solid #d6d6d6;
     color: #efefef
 }
+#ft-rogo {
+    width: 100%;
+    text-align: center;
+}
 @media (max-width:800px) {
     #main-menu a {
         width: 110px;
