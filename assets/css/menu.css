@@ -69,10 +69,12 @@
 	float: left;
 }
 
-#menu-contact, #menu-login {
+#menu-contact, #menu-portfolio {
 	float: right;
 }
-
+#menu-portfolio {
+    font-size: .8em;
+}
 #introduce {
 	line-height: 15px;
 	color: #333;
