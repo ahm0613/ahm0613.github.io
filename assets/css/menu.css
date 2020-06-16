@@ -1,25 +1,21 @@
 /* menu.css */
 
-h3 {
-	margin: 0;
-	padding: 0;
+* {margin: 0; padding: 0;}
+
+#title {
+	background: white;
+	padding: 5px 0 0 5px;
 	font-size: 4em;
 	font-family: 'Black Han Sans', sans-serif;
 }
 
 
-ul {
+#main-menu {
 	font-size: 1em;
-	margin: 0;
-	padding: 0;
 	list-style-type: none;
 	overflow: hidden;
 	background-color: #333;
 	font-family: 'Noto Sans KR', sans-serif;
-}
-
-li {
-	float: left;
 }
 
 #main-menu > li > a:hover {
@@ -31,8 +27,10 @@ li {
 	text-align: center;
 	text-decoration: none;
 	letter-spacing: 0.05em;
-	display: block;
-	padding: 12px 18px;
+	width: 100px;
+	height: 35px;
+	padding: 10px 0 0 0;
+	display: inline-block;
 	border-top: 5px solid #58ACFA;
 }
 
@@ -40,11 +38,15 @@ li {
 	position: absolute;
 	background-color: #444;
 	opacity: 0;
+	list-style-type: none;
 	visibility: hidden;
 }
 
 #sub-menu > li {
-	padding: 8px 24px;
+	width: 100px;
+	height: 35px;
+	padding: 10px 0 0 0;
+	text-align: center;
 	float: none;
 }
 
@@ -63,7 +65,11 @@ li {
 	background-color: #555;
 }
 
-.right {
+#menu-home, #menu-hw, #menu-quiz {
+	float: left;
+}
+
+#menu-contact, #menu-login {
 	float: right;
 }
 
